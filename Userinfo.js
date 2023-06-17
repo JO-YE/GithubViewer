@@ -2,6 +2,7 @@ const userInfoContainer = document.getElementById("user-info");
 const repositoriesContainer = document.getElementById("repositories");
 const usersContainer = document.querySelector(".github-users");
 
+/* displaying random users with links to their profiles */
 export function populateGithubUsers(users) {
   const usersHtml = users
     .map((user) => {
@@ -17,6 +18,7 @@ export function populateGithubUsers(users) {
   usersContainer.innerHTML = usersHtml;
 }
 
+/* this fxn displays a specific user info */
 export const displayUserInfo = (user) => {
   const userInfo = `
 				<div class="user-info">
@@ -33,6 +35,7 @@ export const displayUserInfo = (user) => {
   userInfoContainer.innerHTML = userInfo;
 };
 
+/* to display user repositories info as well as links to each repo */
 export function displayRepositories(repositories) {
   const repositoriesHTML = repositories
     .map((repo) => {

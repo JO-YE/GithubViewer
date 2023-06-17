@@ -7,6 +7,7 @@
     <link rel="icon" href="./images/gicon.jpg" />
     <link rel="stylesheet" href="github_styles.css" />
 
+    <!-- defer keyword delays the execution of the script tags till the body is done executing-->
     <script src="app.js" defer type="module"></script>
   </head>
   <body>
@@ -17,6 +18,7 @@
     <main>
       <div class="container">
         <h2>Enter GitHub Username</h2>
+        <!-- this action sends the result to response.html. the response page-->
         <form id="github-form" action="response.html" method="POST">
           <input
             type="text"

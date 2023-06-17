@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   console.log(users);
   populateGithubUsers(users);
 
+  /* event that enables scrolling of the page*/
   window.addEventListener("scroll", async () => {
     const scrollPosition = window.innerHeight + window.pageYOffset;
     const pageHeight = document.documentElement.scrollHeight;
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
-  window.removeEventListener("scroll", () => {});
+  //window.removeEventListener("scroll", () => {});
 
   const username = document.getElementById("username-input").value.trim();
 

@@ -4,6 +4,7 @@ let perPage = 1000;
 let users = [];
 
 export const fetchUsers = async () => {
+  /* function that fetch endpoint for random users on github*/
   try {
     const randomPage = Math.floor(Math.random() * 10) + 1; // Generate a random page number
 
@@ -28,6 +29,7 @@ export const fetchUsers = async () => {
 
 // Using "async" and "await" with "fetch" allows you to write more readable and sequential code
 export const fetchUser = async (_username) => {
+  /* function that fetch endpoint for a specific user on github*/
   try {
     const response = await fetch(`${API}/${_username}`);
     // the await keyword is used to pause the execute until the fetch request resolves and returns a response.

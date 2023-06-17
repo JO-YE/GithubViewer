@@ -1,5 +1,6 @@
 const API = "https://api.github.com/users";
 
+/* function that fetch endpoint for repositories*/
 export const fetchRepositories = async (_username) => {
   try {
     const response = await fetch(`${API}/${_username}/repos`);
