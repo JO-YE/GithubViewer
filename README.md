@@ -22,3 +22,9 @@
 **[*Whether you're a developer seeking to explore someone's projects or a recruiter looking for insights into a candidate's work, GithubViewer provides a user-friendly solution that delivers the information you need at your fingertips.*]**
 
 ### To commence using the app, kindly click [HERE](https://oluwadamilolarache.wixsite.com/githubviewer)
+
+#### Author
+
+- **Aina Racheal Damilola** - [Profile](www.linkedin.com/in/joye-a-racheal)
+
+##
