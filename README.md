@@ -25,6 +25,6 @@
 
 #### Author
 
-- **Aina Racheal Damilola** - [Profile](http://www.linkedin.com/in/joye-a-racheal)
+- **Aina Racheal Damilola** - [Profile](https://www.linkedin.com/in/joye-a-racheal/)
 
 ##
