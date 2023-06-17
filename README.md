@@ -27,4 +27,38 @@
 
 - **Aina Racheal Damilola** - [Profile](https://www.linkedin.com/in/joye-a-racheal/)
 
-##
+## Installation
+
+_To get started with the GitHubViewer web app, simply follow these installation steps:_
+
+> Clone the Repository: Start by cloning the GitHubViewer repository to your local machine.
+
+```
+git clone [repository_url]
+```
+
+> Navigate to the Directory
+
+```
+cd [project_directory]
+```
+
+> Open the application in a web browser by running a local server. You can use any suitable tool for running a web server on your localhost. One popular option is using a package like live-server or http-server.
+>
+> If you have Node.js installed, you can install and use live-server as follows:
+
+```
+npm install -g live-server
+```
+
+> Then, start the server on port 5500:
+
+```
+live-server --port=5500
+```
+
+> Open your web browser and enter the following URL:
+
+```
+http://127.0.0.1:5500
+```
