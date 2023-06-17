@@ -1,0 +1,256 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 235, 236);
+  width: 100%;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100;
+  background-color: #333;
+  color: #c9b2b2;
+  padding: 20px;
+  background-image: url(./images/githubicon.webp);
+  background-repeat: no-repeat;
+  background-position: 0px, 50%;
+}
+
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.container h2 {
+  margin-top: 0;
+}
+
+#github-form {
+  display: flex;
+  gap: 10px;
+}
+
+#username-input {
+  flex: 1;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #313233;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  /*the mouse hovering over it. */
+  opacity: 0.8;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.user-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.user-info a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #313233;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.user-info a:hover {
+  background-color: #0056b3;
+}
+
+#user-info,
+#repositories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  overflow-wrap: break-word;
+}
+
+.repository {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.repository h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.repository p {
+  margin-bottom: 5px;
+}
+
+.repository a {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #313233;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.repository a:hover {
+  background-color: #0056b3;
+}
+
+.back-home a {
+  text-decoration: none;
+  padding: 0px 0px;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #313233;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-home a:hover {
+  opacity: 0.8;
+  background-color: #325a85;
+}
+
+.back-to-top-link a {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+  background-color: #313233;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top-link a:hover {
+  opacity: 0.8;
+}
+
+.github-users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-box {
+  flex: 0 0 calc(16.66% - 20px);
+  background-color: #eaeaea;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.user-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.user-box h3 {
+  margin: 0;
+}
+
+.user-box a {
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #313233;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.user-box a:hover {
+  background-color: #272e53;
+}
+
+/* Styles for mobile devices with a maximum width of 767px */
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 10px;
+    background-size: 50px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  #username-input {
+    padding: 2px;
+  }
+
+  button[type="submit"] {
+    padding: 2px 6px;
+  }
+
+  .go-back {
+    top: 80px;
+    margin-top: 20px;
+  }
+
+  /* Make the elements cover the full width */
+  #github-form {
+    flex-direction: column;
+  }
+
+  #username-input {
+    width: 100%;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+  }
+}
