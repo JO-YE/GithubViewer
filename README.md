@@ -62,3 +62,5 @@ live-server --port=5500
 ```
 http://127.0.0.1:5500
 ```
+
+#### Detailed information about this Project including its Architecture, Inspiration, Tools used... can be found [HERE](https://docs.google.com/presentation/d/1yhXLT6L2CbkIBwpFSpwOf5ye-Z9r670at3wqtMWY7zc/edit#slide=id.g2507069e716_0_29)
